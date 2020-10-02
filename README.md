@@ -27,7 +27,7 @@ You can find me on [![Twitter][1.2]][1], or on [![LinkedIn][2.2]][2].
 
 [1]: https://twitter.com/NevleNehal
 [2]: https://www.linkedin.com/in/nehalnevle/
-
+![](https://komarev.com/ghpvc/?username=Blackcipher101)
 #### :gear: Tools and Tech 
 
 
