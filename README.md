@@ -2,7 +2,7 @@
 
 Hi there I don't know why would you check up on me coz nobody does :cry:. 
 So right now I am working on Deep Learning and ROS. I am also been looking up articles on India's origin story and Cultures of India. 
-If you dont find me infront of the screen I will neck-deep in books based on astronomy :satellite: or hitting the gym :muscle:.
+If you dont find me infront of the screen I will neck-deep in books based on astronomy :satellite:.
 
 
 - I am from Goa, India.:india:
