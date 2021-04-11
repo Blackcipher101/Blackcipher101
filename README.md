@@ -2,7 +2,7 @@
 
 Hi there So you reached here.:wave:. 
 So right now I am working on Deep Learning and ROS. I am also been reading up on human psychology. 
-If you dont find me infront of the screen I will neck-deep in books based on astronomy :satellite:.
+If you don't find me infront of the screen I will neck-deep in books based on astronomy :satellite:.
 
 
 - I am from Goa, India.:india:
