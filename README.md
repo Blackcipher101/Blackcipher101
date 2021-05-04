@@ -1,6 +1,6 @@
 ### Welcome to my lair : :neckbeard:
 
-Hi.:wave: Happy stalking 😄. 
+Hi:wave: Happy stalking 😄;<br>
 I am Nehal aka Blackcipher101.I experience working on Computer Vision and W.b Dev.I am right now working on Deep Learning and ROS. I am also been reading up on 
 human psychology. If you don't find me infront of the screen I will neck-deep in books based on astronomy :satellite:.
 
