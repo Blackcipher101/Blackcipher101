@@ -40,6 +40,8 @@ You can find me on [![Twitter][1.2]][1], or on [![LinkedIn][2.2]][2].
 
 #### Github Stats
 
+[![GitHub Streak](http://github-readme-streak-stats.herokuapp.com?user=Blackcipher101&theme=tokyonight&hide_border=true)](https://git.io/streak-stats)
+
 ![Blackcipher101 github stats](https://github-readme-stats.vercel.app/api?username=Blackcipher101&count_private=true&show_icons=true&theme=tokyonight)
 
 ![Top Langs](https://github-readme-stats.vercel.app/api/top-langs/?username=Blackcipher101&layout=compact&count_private=true&show_icons=true&theme=tokyonight)
