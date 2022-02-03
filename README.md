@@ -8,7 +8,7 @@ human psychology. If you don't find me infront of the screen I will neck-deep in
 - I am from Goa, India.:india:
 - Currently doing Btech in Electrical and Computer Engineering.:school:
 - 😄 Pronouns: He/His
-- I can speak English :uk:,Hindi,Kannada,Marathi,B level French :fr:
+- I can speak English :uk:,Hindi,Kannada,Marathi
 - 💬 Ask me about ...
     - OpenCV :eye:
     - ROS :robot:
