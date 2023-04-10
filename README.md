@@ -13,4 +13,4 @@ I enjoy working on challenging problems and using my skills to make a positive i
 - YOLOv5 🤖
 - SolvePnP 🤖
 ## Contact 📬
-Feel free to shoot me an email at nehal@minuszero.in to discuss any opportunities or collaborations. 📩
+Feel free to shoot me an email at nehalnevle@gmail.com to discuss any opportunities or collaborations. 📩
