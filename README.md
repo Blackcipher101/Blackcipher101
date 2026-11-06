@@ -1,5 +1,5 @@
 <h1 align="center">Nehal Nevle</h1>
-<p align="center"><b>Robotics engineer · state estimation · SLAM · planning</b><br>
+<p align="center"><b>Robotics engineer · state estimation · SLAM · planning · embodied AI</b><br>
 I build the software that lets robots know where they are and decide where to go next.</p>
 
 ---
@@ -31,7 +31,8 @@ Underwater is the one embodiment I hadn't done yet, so that's where I'm working 
 - **Simulation**: built an *agentic Unreal Engine pipeline that generates photorealistic simulators*, an
   India-specific AV simulator for unstructured traffic, and closed-loop CI testing; Stonefish, Gazebo, MuJoCo
 - **GPU & real-time**: CUDA perception and planning, Jetson Orin, multithreaded low-latency systems
-- **Embodied AI & RL**: PPO driving policies, H-GAIL (hierarchical adversarial imitation), RL locomotion and
+- **Embodied AI & deployment**: taking learned policies and VLM-driven behaviours from simulation onto real
+  robots (on-device inference, latency budgets, fallbacks); PPO driving policies, H-GAIL (hierarchical adversarial imitation), RL locomotion and
   control in MuJoCo (MJX + PPO), vision-language models for robot decision-making and inspection
 
 ### 🌊 Building now
