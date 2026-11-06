@@ -58,7 +58,7 @@ controller** trained under currents in MuJoCo's fluid model.
 | 2022 – 2023 | **Minus Zero** | Founding Engineer, Autonomy: first software hire |
 | 2021 – 2022 | **Clutterbot** (via In2peta Robotics) | Robotics Intern: bin localization, FSM control, ArUco docking, led two interns |
 
-B.Tech, Electrical & Computer Engineering (robotics), Amrita Vishwa Vidyapeetham
+B.Tech ELC (robotics), Amrita Vishwa Vidyapeetham
 
 ### 🧰 Stack
 
