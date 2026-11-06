@@ -11,11 +11,11 @@ simulation. I've shipped it on almost every kind of robot:
 
 | | Embodiment | What I built |
 |---|---|---|
-| 🚗 | **Autonomous cars & pods** | Took ZPod, India's first autonomous vehicle, from zero to 100k+ lines of production autonomy code: planning, prediction, control, simulation |
+| 🚗 | **Autonomous cars & pods** | Took ZPod, India's first autonomous vehicle, from zero to 100k+ lines of production autonomy code and 10,000 km driven: planning, prediction, control, simulation |
 | 🛵 | **Two-wheelers** | Navigation and motion planning; stereo + LiDAR + IMU + GPS state estimation |
 | 🐕 | **Quadrupeds** | Autonomy and localization for legged robots |
 | 🌲 | **Outdoor autonomy** | Off-road and outdoor navigation, robust to GPS and vision dropouts |
-| 🛡️ | **Defence** | Defence robotics at Aeroarc |
+| 🛡️ | **Defence** | Defence robotics at Aeroarc: VIRA tracked UGV (15 units in active deployment), ARCV MULE quadruped (10 in active deployment), PhiSCAN 3D LiDAR scanner |
 | 🔍 | **Inspection & scanners** | Inspection robots, scanning and mapping |
 | 🦾 | **Manipulators & AMRs** | Bin localization (YOLOv5 + PnP), control state machines, ArUco auto-docking |
 | 🌊 | **Underwater**: *now* | VIO + DVL fusion, GPU front ends, AI inspection reports, sim-trained ROV control |
@@ -55,7 +55,7 @@ Next up: humanoid get-up, backflip and SuperMimic (training), and sonar-based RL
 | When | Where | Role |
 |---|---|---|
 | 2026 – now | **Griffin Labs**, Singapore | Autonomy Engineer: building generalisable autonomy |
-| 2025 – 2026 | **Aeroarc**, Bengaluru | Senior Robotics Engineer: India's defence robotics |
+| 2025 – 2026 | **Aeroarc**, Bengaluru | Senior Robotics Engineer: India's defence robotics; VIRA (15 in active deployment), ARCV MULE (10 in active deployment), PhiSCAN |
 | 2024 – 2025 | **BYTES**, Bengaluru | Founding member, Robotics & AI: led tech and product; raised $500K, built the product and ran a public demo; selected for Entrepreneur First and YC Startup School |
 | 2023 – 2024 | **Minus Zero**, Bengaluru | Head of Planning & Prediction: led ZPod's autonomy software and team from zero, from pre-seed to Series A; simulation pipeline, CI/CD, RL |
 | 2022 – 2023 | **Minus Zero** | Founding Engineer, Autonomy: first software hire |
