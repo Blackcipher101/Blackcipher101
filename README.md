@@ -11,13 +11,13 @@ simulation. I've shipped it on almost every kind of robot:
 
 | | Embodiment | What I built |
 |---|---|---|
-| 🚗 | **Autonomous cars & pods** | City-scale planning and prediction stack (50k+ lines of production C++), localization, trajectory optimization |
+| 🚗 | **Autonomous cars & pods** | Took ZPod, India's first autonomous vehicle, from zero to 100k+ lines of production autonomy code: planning, prediction, control, simulation |
 | 🛵 | **Two-wheelers** | Navigation and motion planning; stereo + LiDAR + IMU + GPS state estimation |
 | 🐕 | **Quadrupeds** | Autonomy and localization for legged robots |
 | 🌲 | **Outdoor autonomy** | Off-road and outdoor navigation, robust to GPS and vision dropouts |
-| 🛡️ | **Defence** | Autonomy and secure embedded systems |
+| 🛡️ | **Defence** | Defence robotics at Aeroarc |
 | 🔍 | **Inspection & scanners** | Inspection robots, scanning and mapping |
-| 🦾 | **Manipulators & AMRs** | Perception-to-control loops for mobile manipulation |
+| 🦾 | **Manipulators & AMRs** | Bin localization (YOLOv5 + PnP), control state machines, ArUco auto-docking |
 | 🌊 | **Underwater**: *now* | VIO + DVL fusion, GPU front ends, AI inspection reports, sim-trained ROV control |
 
 Underwater is the one embodiment I hadn't done yet, so that's where I'm working now.
@@ -26,12 +26,13 @@ Underwater is the one embodiment I hadn't done yet, so that's where I'm working 
 
 - **State estimation & SLAM**: visual-inertial, lidar-inertial, DVL/pressure fusion, factor graphs (GTSAM),
   fixed-lag smoothing, relocalization, sensor dropout handling
-- **Planning & control**: path planners, trajectory optimization, MPPI, prediction, low-latency C++
-- **Simulation**: built an *agentic pipeline on Unreal Engine that generates photorealistic driving simulators*
-  (Minus Zero); Stonefish, Gazebo, MuJoCo
+- **Planning & control**: path planners, trajectory optimization, MPPI, prediction, genetic-algorithm and
+  actor-critic PID tuning, low-latency C++
+- **Simulation**: built an *agentic Unreal Engine pipeline that generates photorealistic simulators*, an
+  India-specific AV simulator for unstructured traffic, and closed-loop CI testing; Stonefish, Gazebo, MuJoCo
 - **GPU & real-time**: CUDA perception and planning, Jetson Orin, multithreaded low-latency systems
-- **Embodied AI**: RL locomotion and control policies (MJX + PPO), vision-language models for robot
-  decision-making and inspection
+- **Embodied AI & RL**: PPO driving policies, H-GAIL (hierarchical adversarial imitation), RL locomotion and
+  control in MuJoCo (MJX + PPO), vision-language models for robot decision-making and inspection
 
 ### 🌊 Building now
 
@@ -48,16 +49,20 @@ controller** trained under currents in MuJoCo's fluid model.
 
 ### 🛤️ Path
 
-- **Founding member, Bytes**: navigation, planning and state estimation for two-wheelers
-- **Head of Planning & Prediction, Minus Zero**: led the planning stack for the ZPod autonomous vehicle
-- **Founding Research Engineer, Minus Zero**: localization, planning, control, camera/LiDAR drivers
-- **Perception & Localization Intern, Clutterbot**: stereo + odometry fusion, closed-loop manipulation
-- **Hardware Security Engineer, Traboda**: secure embedded systems
-- **B.Tech, Electrical & Computer Engineering (robotics), Amrita Vishwa Vidyapeetham**
+| When | Where | Role |
+|---|---|---|
+| 2026 – now | **Griffin Labs**, Singapore | Autonomy Engineer: building generalisable autonomy |
+| 2025 – 2026 | **Aeroarc**, Bengaluru | Senior Robotics Engineer: India's defence robotics |
+| 2024 – 2025 | **BYTES**, Bengaluru | Robotics & AI: led tech and product |
+| 2023 – 2024 | **Minus Zero**, Bengaluru | Head of Planning & Prediction: led ZPod's autonomy software and team from zero; simulation pipeline, CI/CD, RL |
+| 2022 – 2023 | **Minus Zero** | Founding Engineer, Autonomy: first software hire |
+| 2021 – 2022 | **Clutterbot** (via In2peta Robotics) | Robotics Intern: bin localization, FSM control, ArUco docking, led two interns |
+
+B.Tech, Electrical & Computer Engineering (robotics), Amrita Vishwa Vidyapeetham
 
 ### 🧰 Stack
 
-`C++` `Python` `CUDA` `ROS 2` `GTSAM` `Eigen` `OpenCV` `PyTorch` `JAX` `MuJoCo` `Unreal Engine` `Gazebo` `Stonefish` `Nav2`
+`C++` `Python` `CUDA` `ROS 2` `GTSAM` `Eigen` `OpenCV` `PyTorch` `JAX` `MuJoCo` `Unreal Engine` `NVIDIA DriveWorks` `Gazebo` `Stonefish` `Nav2`
 
 ### 📬 Say hi
 
