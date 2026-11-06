@@ -44,9 +44,9 @@ Underwater is the one embodiment I hadn't done yet, so that's where I'm working 
 | [uw-inspect-report](https://github.com/Blackcipher101/uw-inspect-report) | Detector + VLM that writes the draft inspection report | **8/8** true findings confirmed, precision 0.89 |
 | [uw-calib-health](https://github.com/Blackcipher101/uw-calib-health) | In-water stereo calibration health monitor | every ≥ 0.2° drift caught, 0 false alarms |
 | [uw-vslam-bench](https://github.com/Blackcipher101/uw-vslam-bench) | Benchmark harness, plus the experiments that didn't work, published honestly | — |
+| [rov-rl-mujoco](https://github.com/Blackcipher101/rov-rl-mujoco) | RL controller (PPO in MJX) for an ROV in MuJoCo's fluid model, vs a tuned PID | 0.4 m/s current: **0.048 m** vs PID 0.131 m; 100 % vs 90 % success |
 
-Next up: 🦿 **humanoids in MuJoCo** (walk, get up, backflip; DeepMimic-style imitation) and 🚤 an **RL ROV
-controller** trained under currents in MuJoCo's fluid model.
+Next up: 🦿 **humanoids in MuJoCo** (walk, get up, backflip; DeepMimic-style imitation).
 
 ### 🛤️ Path
 
