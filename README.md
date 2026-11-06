@@ -55,8 +55,8 @@ Next up: 🦿 **humanoids in MuJoCo** (walk, get up, backflip; DeepMimic-style i
 |---|---|---|
 | 2026 – now | **Griffin Labs**, Singapore | Autonomy Engineer: building generalisable autonomy |
 | 2025 – 2026 | **Aeroarc**, Bengaluru | Senior Robotics Engineer: India's defence robotics |
-| 2024 – 2025 | **BYTES**, Bengaluru | Robotics & AI: led tech and product |
-| 2023 – 2024 | **Minus Zero**, Bengaluru | Head of Planning & Prediction: led ZPod's autonomy software and team from zero; simulation pipeline, CI/CD, RL |
+| 2024 – 2025 | **BYTES**, Bengaluru | Founding member, Robotics & AI: led tech and product; raised $500K, built the product and ran a public demo; selected for Entrepreneur First and YC Startup School |
+| 2023 – 2024 | **Minus Zero**, Bengaluru | Head of Planning & Prediction: led ZPod's autonomy software and team from zero, from pre-seed to Series A; simulation pipeline, CI/CD, RL |
 | 2022 – 2023 | **Minus Zero** | Founding Engineer, Autonomy: first software hire |
 | 2021 – 2022 | **Clutterbot** (via In2peta Robotics) | Robotics Intern: bin localization, FSM control, ArUco docking, led two interns |
 
