@@ -1,45 +1,64 @@
-# Hi there! I'm Nehal 👋
+<h1 align="center">Nehal Nevle</h1>
+<p align="center"><b>Robotics engineer · state estimation · SLAM · planning</b><br>
+I build the software that lets robots know where they are and decide where to go next.</p>
 
-Robotics engineer working on **underwater robotics** and **embodied AI**: state estimation and SLAM that survive
-murky water, perception and vision-language models that turn sensor data into decisions, and learned controllers
-trained in simulation. 🌊🤖
+---
 
-## What I do 🛠️
+### 🤖 Every embodiment, then the ocean
 
-- **State estimation & SLAM**: visual-inertial, lidar-inertial and DVL/pressure fusion; factor graphs (GTSAM),
-  fixed-lag smoothing, localization and relocalization on real robots.
-- **GPU acceleration**: CUDA front ends and planners, profiling and latency work on desktop GPUs and Jetson Orin.
-- **Planning & control**: MPPI and sampling-based control, Nav2, route planning.
-- **Perception & VLMs**: detection and segmentation (YOLO, OWLv2, SAM), vision-language models for inspection
-  reports and task planning.
-- **Embodied AI / RL**: training locomotion and vehicle-control policies in MuJoCo (MJX + PPO), sim-to-real minded.
-- **Simulation**: Stonefish (underwater), Gazebo, MuJoCo.
+I work across the full robotics stack, from sensor drivers and state estimation to planning, control and
+simulation. I've shipped it on almost every kind of robot:
 
-## Current projects 🌊
-
-Underwater stereo-inertial estimation and inspection. Each repo has measured baselines; all runs are offline on recorded data or in simulation.
-
-| Project | What it does | Baseline result |
+| | Embodiment | What I built |
 |---|---|---|
-| [uw-vio-dvl](https://github.com/Blackcipher101/uw-vio-dvl) | Stereo-inertial-pressure VIO (GTSAM fixed-lag) with a tightly coupled DVL factor that survives DVL dropouts | 20 s camera blackout: ATE 3.88 m → 0.66 m with (simulated) DVL |
-| [uw-gpu-klt](https://github.com/Blackcipher101/uw-gpu-klt) | CUDA KLT stereo front end, drop-in for the CPU tracker | 2.0x (RTX 5080 desktop) / 4.9x (laptop) faster front end, no ATE loss |
-| [uw-inspect-report](https://github.com/Blackcipher101/uw-inspect-report) | Detector + vision-language model that drafts an inspection report from video and poses, with faithfulness checks | context verifier confirms 8/8 true findings, precision 0.89 |
-| [uw-calib-health](https://github.com/Blackcipher101/uw-calib-health) | In-water stereo calibration health check | every ≥ 0.2° change detected, 0 false alarms |
-| [uw-vslam-bench](https://github.com/Blackcipher101/uw-vslam-bench) | Shared benchmark harness + two honest negative results (learned failure warning, sonar-in-camera) | — |
+| 🚗 | **Autonomous cars & pods** | City-scale planning and prediction stack (50k+ lines of production C++), localization, trajectory optimization |
+| 🛵 | **Two-wheelers** | Navigation and motion planning; stereo + LiDAR + IMU + GPS state estimation |
+| 🐕 | **Quadrupeds** | Autonomy and localization for legged robots |
+| 🌲 | **Outdoor autonomy** | Off-road and outdoor navigation, robust to GPS and vision dropouts |
+| 🛡️ | **Defence** | Autonomy and secure embedded systems |
+| 🔍 | **Inspection & scanners** | Inspection robots, scanning and mapping |
+| 🦾 | **Manipulators & AMRs** | Perception-to-control loops for mobile manipulation |
+| 🌊 | **Underwater**: *now* | VIO + DVL fusion, GPU front ends, AI inspection reports, sim-trained ROV control |
 
-In progress:
-- 🦾 **Humanoid RL in MuJoCo**: walking, getting up, backflips; DeepMimic-style motion imitation.
-- 🚤 **RL controller for an ROV**: MuJoCo fluid model, station keeping and trajectory tracking under currents, compared against PID.
-- 🐟 **Stonefish underwater simulation benchmark** for the VIO + DVL estimator.
+Underwater is the one embodiment I hadn't done yet, so that's where I'm working now.
 
-## Previously 🚗
+### 🧠 What I specialise in
 
-- **Head of Planning and Prediction, Minus Zero**: autonomous mobility. I joined as one of the first engineers (Research Engineer, Autonomy)
-  and worked on some of the hardest problem statements in the stack.
-- **Computer Vision Intern, Clutterbot**: localised bins for a New Zealand client and cut build time.
+- **State estimation & SLAM**: visual-inertial, lidar-inertial, DVL/pressure fusion, factor graphs (GTSAM),
+  fixed-lag smoothing, relocalization, sensor dropout handling
+- **Planning & control**: path planners, trajectory optimization, MPPI, prediction, low-latency C++
+- **Simulation**: built an *agentic pipeline on Unreal Engine that generates photorealistic driving simulators*
+  (Minus Zero); Stonefish, Gazebo, MuJoCo
+- **GPU & real-time**: CUDA perception and planning, Jetson Orin, multithreaded low-latency systems
+- **Embodied AI**: RL locomotion and control policies (MJX + PPO), vision-language models for robot
+  decision-making and inspection
 
-I have a background in Schrödinger's states and cognitive computation, and still find the multiverse and multitasking suspiciously similar. 🤔
+### 🌊 Building now
 
-## Contact 📬
+| Project | What it does | Result so far |
+|---|---|---|
+| [uw-vio-dvl](https://github.com/Blackcipher101/uw-vio-dvl) | Stereo-inertial-pressure VIO with a tightly coupled DVL factor that survives dropouts | 20 s camera blackout: ATE **3.88 m → 0.66 m** with DVL |
+| [uw-gpu-klt](https://github.com/Blackcipher101/uw-gpu-klt) | CUDA KLT stereo front end | **2.0–4.9×** faster, no accuracy loss |
+| [uw-inspect-report](https://github.com/Blackcipher101/uw-inspect-report) | Detector + VLM that writes the draft inspection report | **8/8** true findings confirmed, precision 0.89 |
+| [uw-calib-health](https://github.com/Blackcipher101/uw-calib-health) | In-water stereo calibration health monitor | every ≥ 0.2° drift caught, 0 false alarms |
+| [uw-vslam-bench](https://github.com/Blackcipher101/uw-vslam-bench) | Benchmark harness, plus the experiments that didn't work, published honestly | — |
 
-Email me at nehalnevle@gmail.com about opportunities or collaborations. 📩
+Next up: 🦿 **humanoids in MuJoCo** (walk, get up, backflip; DeepMimic-style imitation) and 🚤 an **RL ROV
+controller** trained under currents in MuJoCo's fluid model.
+
+### 🛤️ Path
+
+- **Founding member, Bytes**: navigation, planning and state estimation for two-wheelers
+- **Head of Planning & Prediction, Minus Zero**: led the planning stack for the ZPod autonomous vehicle
+- **Founding Research Engineer, Minus Zero**: localization, planning, control, camera/LiDAR drivers
+- **Perception & Localization Intern, Clutterbot**: stereo + odometry fusion, closed-loop manipulation
+- **Hardware Security Engineer, Traboda**: secure embedded systems
+- **B.Tech, Electrical & Computer Engineering (robotics), Amrita Vishwa Vidyapeetham**
+
+### 🧰 Stack
+
+`C++` `Python` `CUDA` `ROS 2` `GTSAM` `Eigen` `OpenCV` `PyTorch` `JAX` `MuJoCo` `Unreal Engine` `Gazebo` `Stonefish` `Nav2`
+
+### 📬 Say hi
+
+**nehalnevle@gmail.com**: always up for hard robotics problems, especially wet ones.
