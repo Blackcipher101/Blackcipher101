@@ -45,6 +45,7 @@ Underwater is the one embodiment I hadn't done yet, so that's where I'm working 
 | [uw-calib-health](https://github.com/Blackcipher101/uw-calib-health) | In-water stereo calibration health monitor | every ≥ 0.2° drift caught, 0 false alarms |
 | [uw-vslam-bench](https://github.com/Blackcipher101/uw-vslam-bench) | Benchmark harness, plus the experiments that didn't work, published honestly | — |
 | [rov-rl-mujoco](https://github.com/Blackcipher101/rov-rl-mujoco) | RL controller (PPO in MJX) for an ROV in MuJoCo's fluid model, vs a tuned PID | 0.4 m/s current: **0.048 m** vs PID 0.131 m; 100 % vs 90 % success |
+| [quadruped](https://github.com/Blackcipher101/quadruped) | Browser robot-dog simulator: hand-written multibody dynamics, trained trot on dynamic gravel, SPH water | trained trot, real time on flat ground |
 
 Next up: 🦿 **humanoids in MuJoCo** (walk, get up, backflip; DeepMimic-style imitation).
 
